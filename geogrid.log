@@ -1,0 +1,506 @@
+2017-05-04 13:24:09.069 ---  *** Starting program geogrid.exe ***
+2017-05-04 13:24:10.023 --- Using the following namelist variables:
+2017-05-04 13:24:10.023 --- &SHARE
+2017-05-04 13:24:10.023 ---   WRF_CORE         = ARW
+2017-05-04 13:24:10.024 ---   MAX_DOM          = 2
+2017-05-04 13:24:10.024 ---   START_YEAR       = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_MONTH      = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_DAY        = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_HOUR       = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_MINUTE     = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_SECOND     = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_YEAR         = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_MONTH        = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_DAY          = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_HOUR         = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_MINUTE       = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   END_SECOND       = 0
+2017-05-04 13:24:10.024 ---                    = 0
+2017-05-04 13:24:10.024 ---   START_DATE       = 1986-09-16_00:00:00
+2017-05-04 13:24:10.024 ---                    = 1986-09-16_00:00:00
+2017-05-04 13:24:10.024 ---   END_DATE         = 1986-11-01_00:00:00
+2017-05-04 13:24:10.024 ---                    = 1986-11-01_00:00:00
+2017-05-04 13:24:10.024 ---   INTERVAL_SECONDS = 10800
+2017-05-04 13:24:10.024 ---   IO_FORM_GEOGRID  = 2
+2017-05-04 13:24:10.024 ---   OPT_OUTPUT_FROM_GEOGRID_PATH = /glade/scratch/katelynw/WRF_SIM_1986_10/wps_1986_10/
+2017-05-04 13:24:10.024 ---   SUBGRID_RATIO_X  = 1
+2017-05-04 13:24:10.024 ---                    = 1
+2017-05-04 13:24:10.024 ---   SUBGRID_RATIO_Y  = 1
+2017-05-04 13:24:10.024 ---                    = 1
+2017-05-04 13:24:10.024 ---   DEBUG_LEVEL      = 0
+2017-05-04 13:24:10.024 ---   ACTIVE_GRID      = .TRUE.
+2017-05-04 13:24:10.024 ---                    = .TRUE.
+2017-05-04 13:24:10.025 ---   NOCOLONS         = .FALSE.
+2017-05-04 13:24:10.025 --- /
+2017-05-04 13:24:10.025 --- &GEOGRID
+2017-05-04 13:24:10.025 ---   PARENT_ID         = 1
+2017-05-04 13:24:10.025 ---                     = 1
+2017-05-04 13:24:10.025 ---   PARENT_GRID_RATIO = 1
+2017-05-04 13:24:10.025 ---                     = 3
+2017-05-04 13:24:10.025 ---   I_PARENT_START    = 1
+2017-05-04 13:24:10.025 ---                     = 88
+2017-05-04 13:24:10.025 ---   J_PARENT_START    = 1
+2017-05-04 13:24:10.025 ---                     = 84
+2017-05-04 13:24:10.025 ---   S_WE              = 1
+2017-05-04 13:24:10.025 ---                     = 1
+2017-05-04 13:24:10.025 ---   E_WE              = 340
+2017-05-04 13:24:10.025 ---                     = 349
+2017-05-04 13:24:10.025 ---   S_SN              = 1
+2017-05-04 13:24:10.025 ---                     = 1
+2017-05-04 13:24:10.025 ---   E_SN              = 290
+2017-05-04 13:24:10.025 ---                     = 328
+2017-05-04 13:24:10.025 ---   GEOG_DATA_RES     = modis_lakes+modis_fpar+30s
+2017-05-04 13:24:10.025 ---                     = modis_lakes+modis_fpar+30s
+2017-05-04 13:24:10.025 ---   DX                = 3000.000000
+2017-05-04 13:24:10.025 ---   DY                = 3000.000000
+2017-05-04 13:24:10.025 ---   MAP_PROJ          = lambert
+2017-05-04 13:24:10.025 ---   POLE_LAT          = 90.000000
+2017-05-04 13:24:10.025 ---   POLE_LON          = 0.000000
+2017-05-04 13:24:10.025 ---   REF_LAT           = 44.299999
+2017-05-04 13:24:10.025 ---   REF_LON           = -114.699997
+2017-05-04 13:24:10.025 ---   REF_X             = 100000002004087734272.000000
+2017-05-04 13:24:10.220 ---   REF_Y             = 100000002004087734272.000000
+2017-05-04 13:24:10.220 ---   TRUELAT1          = 44.299999
+2017-05-04 13:24:10.220 ---   TRUELAT2          = 44.299999
+2017-05-04 13:24:10.220 ---   STAND_LON         = -114.699997
+2017-05-04 13:24:10.220 ---   GEOG_DATA_PATH    = /glade/u/home/wrfhelp/WPS_GEOG/
+2017-05-04 13:24:10.220 ---   OPT_GEOGRID_TBL_PATH = /glade/scratch/katelynw/WRF/3.8.1/WPS/geogrid/
+2017-05-04 13:24:10.220 --- /
+2017-05-04 13:24:10.224 --- Processing domain 1 of 2
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.224 --- INFORM: Using default interpolator sequence for HGT_M.
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.224 --- INFORM: For HGT_M, couldn't find 30s data source.
+2017-05-04 13:24:10.224 --- INFORM: Using default data source for HGT_M.
+2017-05-04 13:24:10.225 --- INFORM: Using modis_lakes interpolator sequence for LANDUSEF.
+2017-05-04 13:24:10.225 --- INFORM: Using modis_lakes data source for LANDUSEF.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.225 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.225 --- INFORM: For SOILTEMP, couldn't find 30s data source.
+2017-05-04 13:24:10.225 --- INFORM: Using default data source for SOILTEMP.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCTOP, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCTOP, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.226 --- INFORM: Using 30s interpolator sequence for SOILCTOP.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCTOP, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCTOP, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.226 --- INFORM: Using 30s data source for SOILCTOP.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCBOT, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCBOT, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.226 --- INFORM: Using 30s interpolator sequence for SOILCBOT.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCBOT, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.226 --- INFORM: For SOILCBOT, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.226 --- INFORM: Using 30s data source for SOILCBOT.
+2017-05-04 13:24:10.226 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.226 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.226 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.227 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-05-04 13:24:10.227 --- INFORM: For ALBEDO12M, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.227 --- INFORM: For ALBEDO12M, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.227 --- INFORM: For ALBEDO12M, couldn't find 30s data source.
+2017-05-04 13:24:10.227 --- INFORM: Using default data source for ALBEDO12M.
+2017-05-04 13:24:10.227 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.227 --- INFORM: Using modis_fpar interpolator sequence for GREENFRAC.
+2017-05-04 13:24:10.227 --- INFORM: For GREENFRAC, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.227 --- INFORM: Using modis_fpar data source for GREENFRAC.
+2017-05-04 13:24:10.227 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.227 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.227 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.228 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-05-04 13:24:10.228 --- INFORM: For LAI12M, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.228 --- INFORM: For LAI12M, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.228 --- INFORM: For LAI12M, couldn't find 30s data source.
+2017-05-04 13:24:10.228 --- INFORM: Using default data source for LAI12M.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.228 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.228 --- INFORM: For SNOALB, couldn't find 30s data source.
+2017-05-04 13:24:10.228 --- INFORM: Using default data source for SNOALB.
+2017-05-04 13:24:10.228 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.228 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.229 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.229 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-05-04 13:24:10.229 --- INFORM: For SLOPECAT, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.229 --- INFORM: For SLOPECAT, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.229 --- INFORM: For SLOPECAT, couldn't find 30s data source.
+2017-05-04 13:24:10.229 --- INFORM: Using default data source for SLOPECAT.
+2017-05-04 13:24:10.229 --- INFORM: For CON, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.229 --- INFORM: For CON, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.229 --- INFORM: For CON, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.229 --- INFORM: Using default interpolator sequence for CON.
+2017-05-04 13:24:10.229 --- INFORM: For CON, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.230 --- INFORM: For CON, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.230 --- INFORM: For CON, couldn't find 30s data source.
+2017-05-04 13:24:10.230 --- INFORM: Using default data source for CON.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.230 --- INFORM: Using default interpolator sequence for VAR.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.230 --- INFORM: For VAR, couldn't find 30s data source.
+2017-05-04 13:24:10.230 --- INFORM: Using default data source for VAR.
+2017-05-04 13:24:10.230 --- INFORM: For OA1, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.230 --- INFORM: For OA1, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.230 --- INFORM: For OA1, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.230 --- INFORM: Using default interpolator sequence for OA1.
+2017-05-04 13:24:10.230 --- INFORM: For OA1, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.231 --- INFORM: For OA1, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.231 --- INFORM: For OA1, couldn't find 30s data source.
+2017-05-04 13:24:10.231 --- INFORM: Using default data source for OA1.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.231 --- INFORM: Using default interpolator sequence for OA2.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.231 --- INFORM: For OA2, couldn't find 30s data source.
+2017-05-04 13:24:10.231 --- INFORM: Using default data source for OA2.
+2017-05-04 13:24:10.231 --- INFORM: For OA3, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.231 --- INFORM: For OA3, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.231 --- INFORM: For OA3, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.231 --- INFORM: Using default interpolator sequence for OA3.
+2017-05-04 13:24:10.232 --- INFORM: For OA3, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.232 --- INFORM: For OA3, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.232 --- INFORM: For OA3, couldn't find 30s data source.
+2017-05-04 13:24:10.232 --- INFORM: Using default data source for OA3.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.232 --- INFORM: Using default interpolator sequence for OA4.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.232 --- INFORM: For OA4, couldn't find 30s data source.
+2017-05-04 13:24:10.232 --- INFORM: Using default data source for OA4.
+2017-05-04 13:24:10.232 --- INFORM: For OL1, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.233 --- INFORM: For OL1, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.233 --- INFORM: For OL1, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.233 --- INFORM: Using default interpolator sequence for OL1.
+2017-05-04 13:24:10.233 --- INFORM: For OL1, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.233 --- INFORM: For OL1, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.233 --- INFORM: For OL1, couldn't find 30s data source.
+2017-05-04 13:24:10.233 --- INFORM: Using default data source for OL1.
+2017-05-04 13:24:10.233 --- INFORM: For OL2, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.233 --- INFORM: For OL2, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.233 --- INFORM: For OL2, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.233 --- INFORM: Using default interpolator sequence for OL2.
+2017-05-04 13:24:10.233 --- INFORM: For OL2, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.234 --- INFORM: For OL2, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.234 --- INFORM: For OL2, couldn't find 30s data source.
+2017-05-04 13:24:10.234 --- INFORM: Using default data source for OL2.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.234 --- INFORM: Using default interpolator sequence for OL3.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.234 --- INFORM: For OL3, couldn't find 30s data source.
+2017-05-04 13:24:10.234 --- INFORM: Using default data source for OL3.
+2017-05-04 13:24:10.234 --- INFORM: For OL4, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.234 --- INFORM: For OL4, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.234 --- INFORM: For OL4, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.234 --- INFORM: Using default interpolator sequence for OL4.
+2017-05-04 13:24:10.234 --- INFORM: For OL4, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.235 --- INFORM: For OL4, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.235 --- INFORM: For OL4, couldn't find 30s data source.
+2017-05-04 13:24:10.235 --- INFORM: Using default data source for OL4.
+2017-05-04 13:24:10.235 --- INFORM: For VAR_SSO, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.235 --- INFORM: For VAR_SSO, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.235 --- INFORM: Using 30s interpolator sequence for VAR_SSO.
+2017-05-04 13:24:10.235 --- INFORM: For VAR_SSO, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.235 --- INFORM: For VAR_SSO, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.235 --- INFORM: Using 30s data source for VAR_SSO.
+2017-05-04 13:24:10.235 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.236 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.236 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.236 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-05-04 13:24:10.236 --- INFORM: For LAKE_DEPTH, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.236 --- INFORM: For LAKE_DEPTH, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.236 --- INFORM: For LAKE_DEPTH, couldn't find 30s data source.
+2017-05-04 13:24:10.236 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-05-04 13:24:10.236 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.236 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.236 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.236 --- INFORM: Using default interpolator sequence for URB_PARAM.
+2017-05-04 13:24:10.236 --- INFORM: For URB_PARAM, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.236 --- INFORM: For URB_PARAM, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.237 --- INFORM: For URB_PARAM, couldn't find 30s data source.
+2017-05-04 13:24:10.237 --- INFORM: Using default data source for URB_PARAM.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.237 --- INFORM: Using default interpolator sequence for IMPERV.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.237 --- INFORM: For IMPERV, couldn't find 30s data source.
+2017-05-04 13:24:10.237 --- INFORM: Using default data source for IMPERV.
+2017-05-04 13:24:10.237 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:24:10.237 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:24:10.238 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:24:10.238 --- INFORM: Using default interpolator sequence for CANFRA.
+2017-05-04 13:24:10.238 --- INFORM: For CANFRA, couldn't find modis_lakes data source.
+2017-05-04 13:24:10.238 --- INFORM: For CANFRA, couldn't find modis_fpar data source.
+2017-05-04 13:24:10.238 --- INFORM: For CANFRA, couldn't find 30s data source.
+2017-05-04 13:24:10.238 --- INFORM: Using default data source for CANFRA.
+2017-05-04 13:24:10.792 --- Processing field 1 of 28 (LANDUSEF)
+2017-05-04 13:24:11.772 --- Processing field 2 of 28 (LU_INDEX)
+2017-05-04 13:24:11.799 --- Processing field 3 of 28 (HGT_M)
+2017-05-04 13:24:11.936 --- Processing field 4 of 28 (SOILTEMP)
+2017-05-04 13:24:11.993 --- Processing field 5 of 28 (SOILCTOP)
+2017-05-04 13:24:12.933 --- Processing field 6 of 28 (SCT_DOM)
+2017-05-04 13:24:12.943 --- Processing field 7 of 28 (SOILCBOT)
+2017-05-04 13:24:13.900 --- Processing field 8 of 28 (SCB_DOM)
+2017-05-04 13:24:13.916 --- Processing field 9 of 28 (ALBEDO12M)
+2017-05-04 13:24:14.247 --- Processing field 10 of 28 (GREENFRAC)
+2017-05-04 13:24:14.818 --- Processing field 11 of 28 (LAI12M)
+2017-05-04 13:24:15.074 --- Processing field 12 of 28 (SNOALB)
+2017-05-04 13:24:15.369 --- Processing field 13 of 28 (SLOPECAT)
+2017-05-04 13:24:15.476 --- Processing field 14 of 28 (CON)
+2017-05-04 13:24:15.578 --- Processing field 15 of 28 (VAR)
+2017-05-04 13:24:15.689 --- Processing field 16 of 28 (OA1)
+2017-05-04 13:24:15.762 --- Processing field 17 of 28 (OA2)
+2017-05-04 13:24:15.860 --- Processing field 18 of 28 (OA3)
+2017-05-04 13:24:15.959 --- Processing field 19 of 28 (OA4)
+2017-05-04 13:24:16.060 --- Processing field 20 of 28 (OL1)
+2017-05-04 13:24:16.131 --- Processing field 21 of 28 (OL2)
+2017-05-04 13:24:16.265 --- Processing field 22 of 28 (OL3)
+2017-05-04 13:24:16.336 --- Processing field 23 of 28 (OL4)
+2017-05-04 13:24:16.451 --- Processing field 24 of 28 (VAR_SSO)
+2017-05-04 13:24:16.728 --- Processing field 25 of 28 (LAKE_DEPTH)
+2017-05-04 13:24:17.751 --- Processing field 26 of 28 (URB_PARAM)
+2017-05-04 13:28:21.771 --- Processing field 27 of 28 (IMPERV)
+2017-05-04 13:28:39.827 --- Processing field 28 of 28 (CANFRA)
+2017-05-04 13:29:01.140 --- Processing domain 2 of 2
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.141 --- INFORM: Using default interpolator sequence for HGT_M.
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.141 --- INFORM: For HGT_M, couldn't find 30s data source.
+2017-05-04 13:29:01.141 --- INFORM: Using default data source for HGT_M.
+2017-05-04 13:29:01.141 --- INFORM: Using modis_lakes interpolator sequence for LANDUSEF.
+2017-05-04 13:29:01.141 --- INFORM: Using modis_lakes data source for LANDUSEF.
+2017-05-04 13:29:01.141 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.141 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.142 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.142 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-05-04 13:29:01.142 --- INFORM: For SOILTEMP, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.142 --- INFORM: For SOILTEMP, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.158 --- INFORM: For SOILTEMP, couldn't find 30s data source.
+2017-05-04 13:29:01.158 --- INFORM: Using default data source for SOILTEMP.
+2017-05-04 13:29:01.158 --- INFORM: For SOILCTOP, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.158 --- INFORM: For SOILCTOP, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.158 --- INFORM: Using 30s interpolator sequence for SOILCTOP.
+2017-05-04 13:29:01.158 --- INFORM: For SOILCTOP, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.158 --- INFORM: For SOILCTOP, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.158 --- INFORM: Using 30s data source for SOILCTOP.
+2017-05-04 13:29:01.158 --- INFORM: For SOILCBOT, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.159 --- INFORM: For SOILCBOT, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.159 --- INFORM: Using 30s interpolator sequence for SOILCBOT.
+2017-05-04 13:29:01.159 --- INFORM: For SOILCBOT, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.159 --- INFORM: For SOILCBOT, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.159 --- INFORM: Using 30s data source for SOILCBOT.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.159 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.159 --- INFORM: For ALBEDO12M, couldn't find 30s data source.
+2017-05-04 13:29:01.159 --- INFORM: Using default data source for ALBEDO12M.
+2017-05-04 13:29:01.159 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.160 --- INFORM: Using modis_fpar interpolator sequence for GREENFRAC.
+2017-05-04 13:29:01.160 --- INFORM: For GREENFRAC, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.160 --- INFORM: Using modis_fpar data source for GREENFRAC.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.160 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.160 --- INFORM: For LAI12M, couldn't find 30s data source.
+2017-05-04 13:29:01.160 --- INFORM: Using default data source for LAI12M.
+2017-05-04 13:29:01.160 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.160 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.160 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.160 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-05-04 13:29:01.160 --- INFORM: For SNOALB, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.161 --- INFORM: For SNOALB, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.161 --- INFORM: For SNOALB, couldn't find 30s data source.
+2017-05-04 13:29:01.161 --- INFORM: Using default data source for SNOALB.
+2017-05-04 13:29:01.161 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.161 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.172 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.172 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-05-04 13:29:01.172 --- INFORM: For SLOPECAT, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.172 --- INFORM: For SLOPECAT, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.172 --- INFORM: For SLOPECAT, couldn't find 30s data source.
+2017-05-04 13:29:01.172 --- INFORM: Using default data source for SLOPECAT.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.173 --- INFORM: Using default interpolator sequence for CON.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.173 --- INFORM: For CON, couldn't find 30s data source.
+2017-05-04 13:29:01.173 --- INFORM: Using default data source for CON.
+2017-05-04 13:29:01.173 --- INFORM: For VAR, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.173 --- INFORM: For VAR, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.173 --- INFORM: For VAR, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.173 --- INFORM: Using default interpolator sequence for VAR.
+2017-05-04 13:29:01.173 --- INFORM: For VAR, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.173 --- INFORM: For VAR, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.174 --- INFORM: For VAR, couldn't find 30s data source.
+2017-05-04 13:29:01.174 --- INFORM: Using default data source for VAR.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.174 --- INFORM: Using default interpolator sequence for OA1.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.174 --- INFORM: For OA1, couldn't find 30s data source.
+2017-05-04 13:29:01.174 --- INFORM: Using default data source for OA1.
+2017-05-04 13:29:01.174 --- INFORM: For OA2, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.174 --- INFORM: For OA2, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.174 --- INFORM: For OA2, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.174 --- INFORM: Using default interpolator sequence for OA2.
+2017-05-04 13:29:01.174 --- INFORM: For OA2, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.174 --- INFORM: For OA2, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.175 --- INFORM: For OA2, couldn't find 30s data source.
+2017-05-04 13:29:01.175 --- INFORM: Using default data source for OA2.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.175 --- INFORM: Using default interpolator sequence for OA3.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.175 --- INFORM: For OA3, couldn't find 30s data source.
+2017-05-04 13:29:01.175 --- INFORM: Using default data source for OA3.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.176 --- INFORM: Using default interpolator sequence for OA4.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.176 --- INFORM: For OA4, couldn't find 30s data source.
+2017-05-04 13:29:01.176 --- INFORM: Using default data source for OA4.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.176 --- INFORM: Using default interpolator sequence for OL1.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.176 --- INFORM: For OL1, couldn't find 30s data source.
+2017-05-04 13:29:01.176 --- INFORM: Using default data source for OL1.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.177 --- INFORM: Using default interpolator sequence for OL2.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.177 --- INFORM: For OL2, couldn't find 30s data source.
+2017-05-04 13:29:01.177 --- INFORM: Using default data source for OL2.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.177 --- INFORM: Using default interpolator sequence for OL3.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.177 --- INFORM: For OL3, couldn't find 30s data source.
+2017-05-04 13:29:01.177 --- INFORM: Using default data source for OL3.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.178 --- INFORM: Using default interpolator sequence for OL4.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.178 --- INFORM: For OL4, couldn't find 30s data source.
+2017-05-04 13:29:01.178 --- INFORM: Using default data source for OL4.
+2017-05-04 13:29:01.178 --- INFORM: For VAR_SSO, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.178 --- INFORM: For VAR_SSO, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.178 --- INFORM: Using 30s interpolator sequence for VAR_SSO.
+2017-05-04 13:29:01.178 --- INFORM: For VAR_SSO, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.178 --- INFORM: For VAR_SSO, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.179 --- INFORM: Using 30s data source for VAR_SSO.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.179 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.179 --- INFORM: For LAKE_DEPTH, couldn't find 30s data source.
+2017-05-04 13:29:01.179 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-05-04 13:29:01.179 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.179 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.179 --- INFORM: For URB_PARAM, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.179 --- INFORM: Using default interpolator sequence for URB_PARAM.
+2017-05-04 13:29:01.179 --- INFORM: For URB_PARAM, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.180 --- INFORM: For URB_PARAM, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.180 --- INFORM: For URB_PARAM, couldn't find 30s data source.
+2017-05-04 13:29:01.180 --- INFORM: Using default data source for URB_PARAM.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.180 --- INFORM: Using default interpolator sequence for IMPERV.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.180 --- INFORM: For IMPERV, couldn't find 30s data source.
+2017-05-04 13:29:01.180 --- INFORM: Using default data source for IMPERV.
+2017-05-04 13:29:01.180 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution modis_lakes.
+2017-05-04 13:29:01.180 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution modis_fpar.
+2017-05-04 13:29:01.180 --- INFORM: For CANFRA, couldn't find interpolator sequence for resolution 30s.
+2017-05-04 13:29:01.180 --- INFORM: Using default interpolator sequence for CANFRA.
+2017-05-04 13:29:01.180 --- INFORM: For CANFRA, couldn't find modis_lakes data source.
+2017-05-04 13:29:01.181 --- INFORM: For CANFRA, couldn't find modis_fpar data source.
+2017-05-04 13:29:01.181 --- INFORM: For CANFRA, couldn't find 30s data source.
+2017-05-04 13:29:01.181 --- INFORM: Using default data source for CANFRA.
+2017-05-04 13:29:01.487 --- Processing field 1 of 28 (LANDUSEF)
+2017-05-04 13:29:01.873 --- Processing field 2 of 28 (LU_INDEX)
+2017-05-04 13:29:01.899 --- Processing field 3 of 28 (HGT_M)
+2017-05-04 13:29:01.991 --- Processing field 4 of 28 (SOILTEMP)
+2017-05-04 13:29:02.063 --- Processing field 5 of 28 (SOILCTOP)
+2017-05-04 13:29:02.449 --- Processing field 6 of 28 (SCT_DOM)
+2017-05-04 13:29:02.458 --- Processing field 7 of 28 (SOILCBOT)
+2017-05-04 13:29:02.813 --- Processing field 8 of 28 (SCB_DOM)
+2017-05-04 13:29:02.822 --- Processing field 9 of 28 (ALBEDO12M)
+2017-05-04 13:29:03.263 --- Processing field 10 of 28 (GREENFRAC)
+2017-05-04 13:29:03.675 --- Processing field 11 of 28 (LAI12M)
+2017-05-04 13:29:03.965 --- Processing field 12 of 28 (SNOALB)
+2017-05-04 13:29:04.022 --- Processing field 13 of 28 (SLOPECAT)
+2017-05-04 13:29:04.114 --- Processing field 14 of 28 (CON)
+2017-05-04 13:29:04.207 --- Processing field 15 of 28 (VAR)
+2017-05-04 13:29:04.268 --- Processing field 16 of 28 (OA1)
+2017-05-04 13:29:04.358 --- Processing field 17 of 28 (OA2)
+2017-05-04 13:29:04.437 --- Processing field 18 of 28 (OA3)
+2017-05-04 13:29:04.553 --- Processing field 19 of 28 (OA4)
+2017-05-04 13:29:04.615 --- Processing field 20 of 28 (OL1)
+2017-05-04 13:29:04.697 --- Processing field 21 of 28 (OL2)
+2017-05-04 13:29:04.788 --- Processing field 22 of 28 (OL3)
+2017-05-04 13:29:04.886 --- Processing field 23 of 28 (OL4)
+2017-05-04 13:29:04.978 --- Processing field 24 of 28 (VAR_SSO)
+2017-05-04 13:29:05.089 --- Processing field 25 of 28 (LAKE_DEPTH)
+2017-05-04 13:29:05.429 --- Processing field 26 of 28 (URB_PARAM)
+2017-05-04 13:33:52.209 --- Processing field 27 of 28 (IMPERV)
+2017-05-04 13:33:57.334 --- Processing field 28 of 28 (CANFRA)
+2017-05-04 13:34:03.099 ---  *** Successful completion of program geogrid.exe ***
