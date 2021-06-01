@@ -1,5 +1,12 @@
 .ipynb_checkpoints
 .DS_Store
 *.nc
-
+*.shp
+*.shx
+*.cpg
+*.csv
+*.dbf
+*.prj
+*.qgz
+__pycache__
 
